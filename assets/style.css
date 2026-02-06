@@ -1,0 +1,47 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: verdana;
+  color: MediumSlateBlue;
+  text-align: center;
+  font-size: 300%;
+}
+h2 {
+  font-family: verdana;
+  text-align: center;
+}
+
+header div.mycontainer {
+  width: 100%;
+  overflow: auto;
+  display: flex;
+}
+.mycontainer .item-1 {
+}
+.mycontainer .item-2 {
+}
+.mycontainer img {
+  width: 100%;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
+  gap: 10px;
+}
+.project-teaser img {
+  width: 100%;
+}
+
+.footer {
+  color: white;
+  background-color: mediumslateblue;
+  font-family: Verdana;
+  text-align: center;
+  padding: 10px 15px;
+}
