@@ -1,3 +1,8 @@
+/* 
+Punkt vor einem wort ist ein class-selector
+# vor einem wort ist ein id-selector
+*/
+
 body,
 html {
   margin: 0;
@@ -24,23 +29,27 @@ header div.mycontainer {
   overflow: auto;
   display: flex;
 }
-.mycontainer .item-1 {
-}
-.mycontainer .item-2 {
-}
+
 .mycontainer img {
   width: 100%;
 }
-
+/* 
+grid-template-columns: repeat(auto-fill ...etc
+Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
+*/
 .grid-container {
   display: grid;
   width: 100%;
-  grid-template-columns: repeat(auto-fill, minmax(min(400px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
   gap: 10px;
-  grid-template-rows: masonry;
+}
+
+.grid-container-small {
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
 }
 .project-teaser img {
   width: 100%;
+  max-width: 100%;
 }
 
 .footer {
@@ -49,4 +58,33 @@ header div.mycontainer {
   font-family: Verdana;
   text-align: center;
   padding: 10px 15px;
+}
+
+.masonry-container {
+  width: 100%;
+}
+
+.grid-item {
+  display: block;
+  line-height: 0;
+  width: 33.333%;
+}
+/* 
+Mediaqueries definieren wann ein Breakpoint kommt.
+max-width: 1250px heisst alle Bildschirmgrössen unterhalb von 1250px sind betroffen.
+*/
+@media (max-width: 1250px) {
+  .grid-item {
+    width: 50%;
+  }
+}
+
+@media (max-width: 640px) {
+  .grid-item {
+    width: 100%;
+  }
+}
+
+.project-text {
+  width: 100%;
 }
