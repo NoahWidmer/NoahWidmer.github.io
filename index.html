@@ -8,6 +8,7 @@
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/style.css" />
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   </head>
   <body>
     <header>
@@ -27,82 +28,64 @@
     </header>
 
     <main>
-      <!-- do fohd header ond so ah
-      <h1>Noah Widmer</h1>
-      <h2>Für jeden etwas dabei :)</h2> -->
-      <p>Illustration.</p>
-      <p>
-        <a href="https://www.instagram.com/nebloa_/"
-          >Mein Instagram findet ihr hier!</a
-        >
-      </p>
+      <!-- do fohd header ond so ah-->
       <br />
       <br />
 
-      <div class="grid-container">
+      <div class="grid masonry-container">
         <a
-          class="project-teaser"
+          class="grid-item project-teaser"
           href="https://noahwidmer.github.io/Projekte/Infografik"
         >
-          <img
-            src="Thumbnails/project1.webp"
-            alt="Infografik Projekt"
-          />
+          <img src="Thumbnails/project1.webp" alt="Infografik Projekt" />
         </a>
         <a
-          class="project-teaser"
+          class="grid-item project-teaser"
           href="https://de.wikipedia.org/wiki/Tiger"
         >
-          <img
-            src="Thumbnails/project2.jpg"
-            alt="tall cat"
-          />
+          <img src="Thumbnails/project2.jpg" alt="tall cat" />
         </a>
         <a
-          class="project-teaser"
+          class="grid-item project-teaser"
           href="https://de.wikipedia.org/wiki/Geh%C3%B6rnte_Geisterkrabbe"
         >
-          <img
-            src="Thumbnails/project3.jpeg"
-            alt="snowy cat"
-          />
+          <img src="Thumbnails/project3.jpeg" alt="snowy cat" />
         </a>
-         <a
-          class="project-teaser"
+        <a
+          class="grid-item project-teaser"
           href="https://de.wikipedia.org/wiki/Kugelfisch"
         >
-          <img
-            src="Thumbnails/project4.jpg"
-            alt="chill cat"
-          />
+          <img src="Thumbnails/project4.jpg" alt="chill cat" />
         </a>
-         <a
-          class="project-teaser"
+        <a
+          class="grid-item project-teaser"
           href="https://de.wikipedia.org/wiki/Tiger"
         >
-          <img
-            src="Thumbnails/project5.jpg"
-            alt="walkin Bp"
-          />
+          <img src="Thumbnails/project5.jpg" alt="walkin Bp" />
         </a>
-         <a
-          class="project-teaser"
+        <a
+          class="grid-item project-teaser"
           href="https://de.wikipedia.org/wiki/Tiger"
         >
-          <img
-            src="Thumbnails/project6.jpg"
-            alt="yipie"
-          />
+          <img src="Thumbnails/project6.jpg" alt="yipie" />
         </a>
       </div>
     </main>
 
     <footer class="footer">
       <p>
-      Noah Widmer<br />
-      &copy;2026
+        Noah Widmer<br />
+        &copy;2026
       </p>
     </footer>
+    <script>
+      var elem = document.querySelector(".grid");
+      var msnry = new Masonry(elem, {
+        // options
+        // Hier kommen alle optionen die Masonry zur verfügung stellt.
+        itemSelector: ".grid-item",
+        percentPosition: true,
+      });
+    </script>
   </body>
 </html>
-
