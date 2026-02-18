@@ -67,19 +67,19 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
 .grid-item {
   display: block;
   line-height: 0;
-  width: 33.333%;
+  width: 33.3%;
 }
 /* 
 Mediaqueries definieren wann ein Breakpoint kommt.
 max-width: 1250px heisst alle Bildschirmgrössen unterhalb von 1250px sind betroffen.
 */
-@media (max-width: 1250px) {
+@media (max-width: 900px) {
   .grid-item {
     width: 50%;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 450px) {
   .grid-item {
     width: 100%;
   }
