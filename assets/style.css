@@ -20,7 +20,7 @@ h2 {
   text-align: center;
 }
 p {
-  font-family: courier new;
+  font-family: SuisseIntlTrial-Book;courier new;
   text-align: center;
 }
 
@@ -55,7 +55,7 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
 .footer {
   color: white;
   background-color: mediumslateblue;
-  font-family: Verdana;
+  font-family: SuisseIntlTrial-Book;Verdana;
   text-align: center;
   padding: 10px 15px;
 }
