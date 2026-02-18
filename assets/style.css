@@ -48,8 +48,8 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
   grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
 }
 .project-teaser img {
-  width: 100%;
-  max-width: 100%;
+  width: 99%;
+  max-width: 99%;
 }
 
 .footer {
