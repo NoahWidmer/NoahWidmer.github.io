@@ -55,7 +55,7 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
 .footer {
   color: white;
   background-color: mediumslateblue;
-  font-family: SuisseIntlTrial-Book;
+  font-family: courier new;
   text-align: center;
   padding: 10px 15px;
 }
