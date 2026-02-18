@@ -8,7 +8,10 @@ html {
   margin: 0;
   padding: 0;
 }
-
+@font-face {
+  font-family: Test; /* set name */
+  src: url(https://noahwidmer.github.io/BricolageGrotesque_24pt_Condensed-SemiBold.ttf); /* url of the font */
+}
 h1 {
   font-family: verdana;
   color: MediumSlateBlue;
@@ -20,7 +23,7 @@ h2 {
   text-align: center;
 }
 p {
-  font-family: courier new;
+  font-family: Test;
   text-align: center;
 }
 
