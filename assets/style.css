@@ -53,8 +53,8 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
 }
 
 .project img {
-  width: 33%;
-  max-width: 33%;
+  width: 50%;
+  max-width: 50%;
 }
 .footer {
   color: white;
@@ -78,6 +78,12 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
 Mediaqueries definieren wann ein Breakpoint kommt.
 max-width: 1250px heisst alle Bildschirmgrössen unterhalb von 1250px sind betroffen.
 */
+@media (max-width: 2000px) {
+  .grid-item {
+    width: 33%;
+  }
+}
+
 @media (max-width: 900px) {
   .grid-item {
     width: 50%;
