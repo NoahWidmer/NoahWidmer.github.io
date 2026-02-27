@@ -18,13 +18,10 @@ h1 {
   text-align: center;
   font-size: 300%;
 }
-h2 {
-  font-family: verdana;
-  text-align: center;
-}
 p {
   font-family: Bricolage;
   text-align: center;
+  font-size: 150%
 }
 
 header div.mycontainer {
@@ -62,7 +59,7 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
 .footer {
   color: white;
   background-color: mediumslateblue;
-  font-family: courier new;
+  font-family: Bricolage;
   text-align: center;
   padding: 10px 15px;
 }
