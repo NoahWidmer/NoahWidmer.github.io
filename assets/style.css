@@ -43,10 +43,14 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
   grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
   gap: 10px;
 }
-.grid-project{
-  display: grid;
+div.myproject {
   width: 100%;
-  grid-template-columns: repeat(auto-fill, minmax(min(500px, 100%), 1fr));
+  overflow: auto;
+  display: flex;
+}
+
+.myproject img {
+  width: 100%;
 }
 
 .grid-container-small {
