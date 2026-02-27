@@ -60,6 +60,7 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
   color: white;
   background-color: mediumslateblue;
   font-family: Bricolage;
+  font-size:75%
   text-align: center;
   padding: 10px 15px;
 }
