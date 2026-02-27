@@ -13,8 +13,8 @@ html {
   src: url(https://noahwidmer.github.io/BricolageGrotesque_24pt_Condensed-SemiBold.ttf); /* url of the font */
 }
 @font-face {
-  font-family: Suisse; /* set name */
-  src: url(https://noahwidmer.github.io/SuisseIntlTrial-Book.woff2); /* url of the font */
+  font-family: Bricolage; /* set name */
+  src: url(https://noahwidmer.github.io/BricolageGrotesque_24pt-SemiBold.ttf); /* url of the font */
 }
 h1 {
   font-family: verdana;
@@ -27,7 +27,7 @@ h2 {
   text-align: center;
 }
 p {
-  font-family: Suisse;
+  font-family: Bricolage;
   text-align: center;
 }
 
