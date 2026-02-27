@@ -62,7 +62,6 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
   font-family: Bricolage;
   text-align: center;
   padding: 10px 15px;
-  font-size: 100%
 }
 
 .masonry-container {
@@ -89,7 +88,6 @@ max-width: 1250px heisst alle Bildschirmgrössen unterhalb von 1250px sind betro
     width: 100%;
   }
 }
-
-.project-text {
-  width: 100%;
+p.footer {
+  font-size: 75%
 }
