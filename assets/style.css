@@ -53,8 +53,8 @@ Das sagt: Fülle die gesamte Breite und das item ist mindestens min(400px, 100%)
 }
 
 .project img {
-  width: 50%;
-  max-width: 50%;
+  width: 33%;
+  max-width: 33%;
 }
 .footer {
   color: white;
