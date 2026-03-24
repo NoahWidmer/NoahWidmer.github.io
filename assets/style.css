@@ -10,7 +10,7 @@ html {
 }
 @font-face {
   font-family: Bricolage; /* set name */
-  src: url(https://noahwidmer.ch/BricolageGrotesque-Medium.woff2); /* url of the font */
+  src: url(https://fonts.googleapis.com/css?family=Bricolage Grotesque); /* url of the font */
 }
 h1 {
   font-family: verdana;
