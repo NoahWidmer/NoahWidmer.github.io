@@ -57,7 +57,7 @@ div.myproject {
   grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
 }
 .project-teaser img {
-  width: 100%;
+  width: 100%; height: auto;
   max-width: 100%;
 }
 
