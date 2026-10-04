@@ -9,6 +9,10 @@ html {
   padding: 0;
 }
 @font-face {
+  font-family: Pixelify;
+  src: url("/PixelifySans-Regular.ttf") format("truetype");
+}
+@font-face {
   font-family: Bricolage; /* set name */
   src: url("/BricolageGrotesque-Medium.woff2"); /* url of the font */
 }
@@ -19,7 +23,7 @@ h1 {
   font-size: 300%;
 }
 p {
-  font-family: Bricolage;
+  font-family: Pixelify;
   text-align: center;
   font-size: 120%
 }
