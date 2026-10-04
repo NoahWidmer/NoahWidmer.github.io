@@ -102,3 +102,15 @@ max-width: 1250px heisst alle Bildschirmgrössen unterhalb von 1250px sind betro
     width: 100%;
   }
 }
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap; /* Lässt Bilder in die nächste Zeile umbrechen */
+  gap: 1rem;     /* Abstand zwischen den Bildern */
+  justify-content: center;
+}
+.gallery img {
+  flex: 1 1 250px; /* Jedes Bild ist mindestens 250px breit, wächst aber flexibel */
+  max-width: 100%; /* Verhindert das Ausbrechen aus dem Container */
+  height: auto;    /* Bewahrt das Seitenverhältnis */
+}
