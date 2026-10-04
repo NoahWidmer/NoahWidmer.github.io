@@ -17,10 +17,9 @@ html {
   src: url("/BricolageGrotesque-Medium.woff2"); /* url of the font */
 }
 h1 {
-  font-family: verdana;
-  color: MediumSlateBlue;
+  font-family: Bricolage;
   text-align: center;
-  font-size: 300%;
+  font-size: 120%;
 }
 p {
   font-family: Pixelify;
