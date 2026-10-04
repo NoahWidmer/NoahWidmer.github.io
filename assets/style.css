@@ -102,3 +102,18 @@ max-width: 1250px heisst alle Bildschirmgrössen unterhalb von 1250px sind betro
     width: 100%;
   }
 }
+.gallery {
+  display: grid;
+  /* Mindestens 250px breit pro Spalte, sonst bricht es automatisch um */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* 2. Das Bild füllt den div-Container perfekt aus */
+.gallery div img {
+  display: block;
+  width: 100%;
+}
