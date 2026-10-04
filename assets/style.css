@@ -24,7 +24,8 @@ h1 {
 p {
   font-family: Pixelify;
   text-align: center;
-  font-size: 140%
+  font-size: 140%;
+  padding: 20px;
 }
 
 header div.mycontainer {
