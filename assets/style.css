@@ -27,6 +27,12 @@ p {
   font-size: 140%;
   padding: 20px;
 }
+small {
+  font-family: Pixelify;
+  text-align: left;
+  font-size: 70%;
+  padding: 20px;
+}
 
 header div.mycontainer {
   width: 100%;
