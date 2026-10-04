@@ -102,27 +102,3 @@ max-width: 1250px heisst alle Bildschirmgrössen unterhalb von 1250px sind betro
     width: 100%;
   }
 }
-
-.gallery {
-  display: grid;
-  grid-template-columns: 1fr; /* Eine Spalte nimmt den gesamten Platz ein */
-  gap: 1rem;                  /* Abstand zwischen den Bildern */
-  padding: 1rem;
-}
-
-/* Bild-Verhalten */
-.gallery img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;          /* Schneidet Bilder sauber zu, falls sie ungleiche Formate haben */
-  border-radius: 8px;         /* Optional: Abgerundete Ecken */
-}
-
-/* Für grosse Bildschirme (z.B. Desktop ab 768px Breite): 3 Spalten */
-@media (min-width: 768px) {
-  .gallery {
-    grid-template-columns: repeat(3, 1fr); /* Genau 3 gleich grosse Spalten */
-    max-width: 1200px;                     /* Verhindert, dass die Galerie zu breit wird */
-    margin: 0 auto;                        /* Zentriert die Galerie auf dem Bildschirm */
-  }
-}
